@@ -41,7 +41,7 @@ An embedded system that counts products on a conveyor belt, stops the belt when 
 | Motor (L293D input 1A) | P0.10 |
 | Emergency switch (EINT0) | P0.16 |
 | GSM TX / RX | P0.1 (RXD0) / P0.0 (TXD0) |
-| LCD | 17 18 19 20 21 22 23 24|
+| LCD | PO.0 17 PO.0 18  PO.0 19 PO.0 20 PO.0 21 PO.0 22 PO.0 23 PO.024 RS-PO.0 5 EN -PO.0 6|
 
 ## How it works
 1. At power on, the LCD shows the project title, then "ENTER TARGET".
